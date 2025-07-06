@@ -253,9 +253,9 @@ int main(int argc, char* argv[]) {
     // ファイルを閉じる
     fclose(infile);
     fclose(outfile);
-    free(output_filepath);
 
     fprintf(stdout, "Log analysis completed. Output written to '%s'\n", output_filepath);
+    free(output_filepath);
 
     return 0;
 }
