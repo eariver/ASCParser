@@ -1,0 +1,2 @@
+# ASCParser
+Vector ASCII形式のログをCSVに変換する。ISO-TP向けに作成したがとりあえず成形できればいいやというモチベーションであまりバグ取りはしていない。Gemini製。
